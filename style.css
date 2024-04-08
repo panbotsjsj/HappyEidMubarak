@@ -2,6 +2,9 @@ body {
   /* background-color: #a1d6e2; */
   background-image: url(Background2.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   font-family: sans-serif;
   overflow: hidden;
 }
