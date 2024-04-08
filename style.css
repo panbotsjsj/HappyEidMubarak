@@ -1,5 +1,7 @@
 body {
-  background-color: #a1d6e2;
+  /* background-color: #a1d6e2; */
+  background-image: url(Background2.jpg);
+  background-size: cover;
   font-family: sans-serif;
   overflow: hidden;
 }
@@ -8,7 +10,7 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  background: #f1f1f2;
+  background: #fff;
   transform: translate(-50%, -50%);
   width: 300px;
   height: 400px;
@@ -113,8 +115,9 @@ body {
   transform: translate(-50%, -50%);
   width: 300px;
   height: 400px;
-  background-color: #f1f1f2;
+  background-color: #fff;
   border-radius: 10px;
+  box-shadow: black;
 }
 
 .payment {
