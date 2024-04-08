@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Eid Mubarak</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shorcut icon" href="Card-Logo.png">
+</head>
+
+<body>
+    <div class="card">
+        <h2>Happy Eid <br> Mubarak ✨<br>
+            <span id="jam">Loading...</span>
+        </h2>
+        <p>
+            <br>تَقَبَّلَ اللَّهُ مِنَّا وَمِنْكُمْ
+            <br>Mohon Maaf Lahir Dan Batin✨
+            <br>Maafin Rafi Kalo Ada Kesalahan Yang Disengaja Maupun Tidak Disengaja🙏🙏
+            <br>BTW Minta THR Nya <a href="thr.html"
+                style="text-decoration: none; background-color: #063852; color: #fff; padding: 3px 8px; border-radius: 5px;">Send</a>
+
+        </p>
+        <div class="card2">
+            <h2>1 Syawal</h2>
+            <div class="circle"></div>
+            <img src="Card-Logo.png" alt="logo" class="image">
+            <h2 class="hijriah">1445</h2>
+        </div>
+    </div>
+    <script>
+        setInterval(() => {
+            var date = new Date();
+            var jam = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+            document.getElementById("jam").innerHTML = jam;
+        }, 1000);
+    </script>
+</body>
+
+</html>
